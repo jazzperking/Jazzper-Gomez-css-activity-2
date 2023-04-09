@@ -29,3 +29,45 @@ img{
     width: 380px;
     border-radius: 10px;
 }
+#blog{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-top: 250px;
+}
+div:hover{
+    background-color: rgba(0, 0, 0, 0.850);
+    color: white;
+    border: 1px solid black;
+    transition: .5s ease;
+    cursor: pointer;
+}
+#blog h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: -80px;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+div{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(128, 128, 128, 0.450);
+    background-color: whitesmoke;
+    width: 380px;
+    margin: 10px;
+    height: 460px;
+}
+h3{
+    padding: 20px 20px;
+    font-size: 30px;
+}
+p:first-of-type, a{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
