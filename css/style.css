@@ -71,3 +71,38 @@ p:first-of-type, a{
     padding-bottom: 20px;
     font-size: 20px;
 }
+#services{
+    background-color: whitesmoke;
+    height: 50vh;
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#services h2{
+    position: absolute;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+ul, li{
+    display: flex;
+    margin: 25px;
+    margin-top: 80px;
+}
+li{
+    background-color: white;
+    height: 120px;
+    width: 260px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+li:hover{
+    background-color: rgba(255, 90, 14, 0.945);
+    transition: .3s ease;
+}
